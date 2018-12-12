@@ -1,0 +1,64 @@
+.logo {
+    padding: 15px;
+    background: #527C7E;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.logo p:nth-of-type(1) {
+    font-family: 'Courgette', cursive;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.logo .gold {
+    color: #DAA520;
+    padding-top: 8px;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+.nav, 
+.sign-in-sign-up {
+    display: inline-block;
+}
+
+.nav ul li,
+.sign-in-sign-up ul li {
+    display: inline-block;
+    text-align:center; 
+    list-style-type: none;
+    padding-top: 35px;
+}
+
+.nav ul li a, 
+.sign-in-sign-up ul li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.logo:hover p {
+    color: #DAA520;
+}
+
+.nav a:hover {
+    color: #527C7E;
+}
+
+.toggle {
+    padding: 25px;
+    width: 100%;
+    background: #527C7E;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    display: none;
+    height: inherit;
+}

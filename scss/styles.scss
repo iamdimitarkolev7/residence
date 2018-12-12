@@ -1,0 +1,225 @@
+@import 'reset.scss';
+@import 'https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,600i,700,700i';
+@import 'https://fonts.googleapis.com/css?family=Courgette';
+@import 'https://fonts.googleapis.com/css?family=Vidaloka';
+@import 'navbar.scss';
+@import 'contacts.scss';
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    background: white;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../img/header-after.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container .heading {
+    color: white;
+    font-size: 18px;
+    padding-left: 8rem;
+    padding-top: 4rem;
+}
+
+.image-container .description {
+    font-family: 'Vidaloka', serif;
+    color: #FFE0A1;
+    font-size: 2vw;
+    margin-top: 4rem;
+    margin-left: 8rem;
+    letter-spacing: 3px;
+    width: 40%;
+}
+
+.image-container .description:nth-of-type(1) {
+    width: 60%;
+}
+
+.image-container .description:nth-of-type(2) {
+    margin-bottom: 12.8rem;
+}
+
+.image-container .italics {
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+    letter-spacing: 10px;
+}
+
+
+main .header {
+    font-family: 'Vidaloka', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+main .header img {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+main .header h1 {
+    font-weight: 300;
+    color: rgb(43, 42, 42);
+    padding-bottom: 2.5rem;
+    font-size: 38px;
+}
+
+main .header h1 span {
+    font-family: 'Courgette', cursive;
+    color: #527C7E;
+    font-style: italic;
+}
+
+main .header h3 {
+    width: 60%;
+    color: rgb(77, 77, 77);
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 6rem;
+}
+
+main .image-section {
+    align-items: center; 
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-bottom: 4rem;
+}
+
+main .image-section img:nth-of-type(1) {
+    margin-left: 6rem;
+    width: 25%;
+    z-index: 1;
+    border: 50px solid #527C7E;
+    overflow: hidden;
+    position: absolute;
+    left: 250px;
+    filter: brightness(60%);
+}
+
+main .image-section img:nth-of-type(2) {
+    overflow: hidden;
+    z-index: 0;
+    width: 45%;
+    margin-top: 4rem;
+    margin-left: 500px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    filter: brightness(60%);
+}
+
+main header {
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    position: relative;
+    left: 45%;
+    bottom: 400px;
+    background: transparent;
+}
+
+
+main header h2 {
+    font-family: 'Vidaloka', serif;
+    letter-spacing: 2px;
+    color: #FFE0A1;
+    font-size: 36px;
+    padding-bottom: 2rem;
+}
+
+main header p {
+    display: flex;
+    flex-direction: column;
+}
+
+main header p a {
+    padding-bottom: 1rem;
+    text-emphasis: none;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+main header p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #3A4848;
+    align-items: center;
+}
+
+footer .logo-footer p:nth-of-type(1) {
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+footer .logo-footer .gold {
+    color: #DAA520;
+    padding-top: 8px;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+footer .logo-footer {
+    padding: 2rem;
+    padding-top: 4rem;
+}
+
+footer .copyright {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-size: 18px;
+}
+
+footer .bold {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+footer p:nth-of-type(2) {
+    color: rgb(172, 172, 172);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+footer .icons {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 4rem;
+}
+
+footer .icons a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .icons a:nth-of-type(2) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+footer .icons a:hover {
+    color: white;
+}

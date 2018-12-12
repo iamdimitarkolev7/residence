@@ -1,0 +1,112 @@
+.content {
+    .image-header {
+        background:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/contacts-header-pic.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow-x: hidden;
+        width: 100%;
+        height: 40vh;
+    }
+    
+    h1 {
+        text-align: center;
+        padding: 3rem 3rem 1rem 3rem;
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: #527C7E;
+    }
+
+    .header {
+        font-family: 'Vidaloka', serif;
+        font-size: 36px;
+    }
+
+    p {
+        text-align: center;
+        font-weight: 300;
+        color: #2b2a2a;
+        padding-bottom: 2.5rem;
+        font-size: 38px;
+    }
+
+    .description {
+        font-family: 'Vidaloka',serif;
+        text-align: center;
+        letter-spacing: 1px;
+        margin: auto;
+        width: 60%;
+        color: #4d4d4d;
+        font-weight: 300;
+        font-size: 18px;
+        padding-bottom: 6rem;
+    }
+
+    span {
+        font-family: 'Courgette', cursive;
+        color: #527C7E;
+        font-style: italic;
+    }
+
+    .location {
+        width: 50%;
+        margin: auto;
+
+        img {
+            padding-bottom: 4rem;
+        }
+    }
+
+    .contacts-box {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        align-items: baseline;
+
+        .contacts {
+            h2 {
+                font-size: 22px;
+            }
+
+            p {
+                text-align: initial;
+                padding-top: 12px;
+                font-size: 36px;
+                font-weight: 400;
+                color: #527C7E;
+            }
+        }
+
+        .form {
+
+            h1 {
+                text-align: left;
+                margin-bottom: 2rem;
+                padding-left: 0;
+            }
+
+            .form-paragraph {
+                text-align: initial;
+                font-size: 22px;
+                padding: 0px;
+                margin-top: 1rem;
+            }
+             
+            input[type="submit"] {
+               border: none;
+               padding: 8px 15px;
+               color: white;
+               background: #527C7E;
+               border-radius: 5px;
+            }
+             
+            input[type="text"],
+            input[type="email"] {
+               border: none;
+               border-bottom: 1.5px solid #527C7E;
+               width: 70%;
+            }
+        }
+    }
+}
