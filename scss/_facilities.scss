@@ -1,0 +1,188 @@
+main {
+
+    #facilities-head {
+        font-family: 'Courgette', cursive;
+        text-align: center;
+        font-size: 92px;
+        letter-spacing: 10px;
+        color: white;
+        padding-top: 5rem;
+    }
+    
+    .fascilities-heading {
+        padding-top: 3rem;
+        font-family: 'Vidaloka', serif;
+        color: #2b2a2a;
+        font-size: 36px;
+
+        .italics {
+            font-family: 'Courgette', cursive;
+            color: #527C7E;
+            font-style: italic;
+        }
+    }
+
+    .intro {
+        font-family: 'Vidaloka',serif;
+        letter-spacing: 1px;
+        margin: auto;
+        width: 60%;
+        color: #4d4d4d;
+        font-size: 18px;
+        padding-bottom: 3rem;
+    }
+
+    #header {
+        background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/facilities-header-pic.jpg);
+        background-size: 100%; 
+        background-position: center;
+        height: 300px;
+
+        p {
+            font-family: 'Courgette', cursive;
+            font-size: 92px;
+            color: white;
+            letter-spacing: 22px;
+            text-align: center;
+            padding-top: 5rem;
+        }
+    }
+
+    section {
+        margin-bottom: 3rem;
+    }
+    
+    .sport-facilities {
+        display: grid;
+        padding: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .text-over-image {
+
+        #gym {
+            background-image: url(../img/sport-facilities/gym.jpg);
+        }
+
+        #golf {
+            background-image: url(../img/sport-facilities/golf.jpg);
+        }
+
+        .img {
+            position: relative;
+            background-size: 100%;
+            transition: 0.5s;
+            width: 600px;
+            height: 400px;
+            background-size: 100%;
+            border-radius: 1rem;
+        }
+
+        .img:hover {
+            background-size: 110%;
+        }
+
+        .img:after {
+            font-family: 'Vidaloka',serif;
+            font-size: 16px;
+            position: absolute;
+            content: attr(data-text);
+            top: 100%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            white-space: pre-wrap;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 1rem;
+            opacity: 0;
+            transition: 0.5s;
+            border-radius: 1rem;
+            line-height: 1.6;
+        }
+
+        .img:hover:after {
+            opacity: 1;
+            top: 0;
+        }
+
+        .img:first-line {
+            color: White;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        justify-self: center;
+      }
+
+      .relaxation-facilities {
+        display: grid;
+        padding: 2rem;
+        grid-template-columns: repeat(4, 1fr);
+
+        #spa {
+            background-image: url('../img/relaxation-facilities/spa.jpg');
+        }
+
+        #yoga {
+            background-image: url('../img/relaxation-facilities/yoga.jpg');
+        }
+
+        #kids {
+            background-image: url('../img/relaxation-facilities/kids.jpg');
+        }
+
+        #massage {
+            background-image: url('../img/relaxation-facilities/massage.jpg');
+        }
+
+        .img {
+            position: relative;
+            background-size: 100%;
+            transition: 0.5s;
+            width: 300px;
+            height: 500px;
+            background-size: 100%;
+            border-radius: 1rem;
+        }
+
+        .img:hover {
+            background-size: 110%;
+        }
+
+        .img:after {
+            font-family: 'Vidaloka',serif;
+            font-size: 16px;
+            position: absolute;
+            content: attr(data-text);
+            top: 100%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            white-space: pre-wrap;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 1rem;
+            opacity: 0;
+            transition: 0.5s;
+            border-radius: 1rem;
+            line-height: 1.6;
+        }
+
+        .img:hover:after {
+            opacity: 1;
+            top: 0;
+        }
+
+        .img:first-line {
+            color: White;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        justify-self: center;
+
+      }
+}
