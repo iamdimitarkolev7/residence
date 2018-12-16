@@ -6,6 +6,13 @@
         background-repeat: no-repeat;
     }
 
+    .heading-part-villa-2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/villa-samuilovo/villa-samuilovo.jpg');
+        background-position: bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
     .coordinates {
         p {
             font-weight: bold;
@@ -59,6 +66,16 @@
             background-size: 100% 100%;
             width: 150px;
             height: 150px;
+            align-self: center;
+            margin-top: 6rem;
+            margin-bottom: 3rem;
+        }
+
+        #image-png-2 {
+            background-image: url('../img/villa-samuilovo/house-samuilovo.png');
+            background-size: 100% 100%;
+            width: 170px;
+            height: 100px;
             align-self: center;
             margin-top: 6rem;
             margin-bottom: 3rem;
