@@ -5,6 +5,7 @@
 @import 'navbar.scss';
 @import 'contacts.scss';
 @import 'facilities.scss';
+@import 'villas.scss';
 
 html {
     box-sizing: border-box;
@@ -115,7 +116,7 @@ main .header h3 {
 }
 
 main .image-section {
-    align-items: center; 
+    margin: 0 auto; 
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -123,7 +124,6 @@ main .image-section {
 }
 
 main .image-section img:nth-of-type(1) {
-    margin-left: 6rem;
     width: 25%;
     z-index: 1;
     border: 50px solid #527C7E;

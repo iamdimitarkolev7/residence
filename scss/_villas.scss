@@ -1,0 +1,105 @@
+#gergevets {
+    .heading-part-villa-1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/villa-gergevets/villa-gergevets.jpg');
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .coordinates {
+        p {
+            font-weight: bold;
+            font-size: 18px;
+            color: white;
+            padding: 0;
+            margin-left: 8rem;
+            padding-top: 0.4rem;
+            text-align: left;
+        }
+
+        p:nth-of-type(1) {
+            padding-top: 5rem;
+        }
+    }
+
+    .villa {
+        font-family: 'Courgette', cursive;
+        color: #FFE0A1;
+        text-transform: initial;
+        font-size: 60px;
+        padding-top: 3rem;
+        padding-left: 8rem;
+        letter-spacing: 5px;
+        text-align: left;
+    }
+
+    .info {
+        p {
+            font-weight: bold;
+            font-size: 18px;
+            color: white;
+            padding: 0;
+            margin-left: 8rem;
+            padding-top: 1rem;
+            text-align: left;
+        }
+
+        p:nth-of-type(1) {
+            padding-top: 5rem;
+        }
+
+        p:nth-of-type(2) {
+            padding-bottom: 5rem;
+        }
+    }
+
+    .header {
+        #image-png {
+            background-image: url('../img/villa-gergevets/house.jpg');
+            background-size: 100% 100%;
+            width: 150px;
+            height: 150px;
+            align-self: center;
+            margin-top: 6rem;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            padding-left: 8rem;
+            padding-right: 8rem;
+        }
+    }
+
+    section {
+        display: flex;
+
+        #image1 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/villa-gergevets/restaurant.jpg');
+            background-size: 100%;
+            background-position: center;
+            height: 300px;
+        }
+
+        #image2 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/villa-gergevets/amazing-shops.jpg');
+            background-size: 100%;
+            background-position: center;
+            height: 300px;
+        }
+
+        article {
+            display: flex;
+            width: 40%;
+            border: 2px solid #527C7E;
+            margin: 0 auto;
+
+            p {
+                font-family: 'Vidaloka', serif;
+                color: white;
+                font-size: 24px;
+                text-align: center;
+                padding: 2rem;
+            }
+        }
+    }
+}
