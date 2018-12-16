@@ -8,7 +8,7 @@
 
     .heading-part-villa-2 {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/villa-samuilovo/villa-samuilovo.jpg');
-        background-position: bottom;
+        background-position: center;
         background-size: 100%;
         background-repeat: no-repeat;
     }
@@ -99,6 +99,20 @@
 
         #image2 {
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/villa-gergevets/amazing-shops.jpg');
+            background-size: 100%;
+            background-position: center;
+            height: 300px;
+        }
+
+        #image3 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/villa-samuilovo/wine-tasting.jpg');
+            background-size: 100%;
+            background-position: center;
+            height: 300px;
+        }
+
+        #image4 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/villa-samuilovo/biking.jpg');
             background-size: 100%;
             background-position: center;
             height: 300px;
