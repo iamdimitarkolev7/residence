@@ -72,8 +72,8 @@ main {
             position: relative;
             background-size: 100%;
             transition: 0.5s;
-            width: 600px;
-            height: 400px;
+            width: 400px;
+            height: 300px;
             background-size: 100%;
             border-radius: 1rem;
         }
@@ -119,11 +119,7 @@ main {
       .relaxation-facilities {
         display: grid;
         padding: 2rem;
-        grid-template-columns: repeat(4, 1fr);
-
-        #spa {
-            background-image: url('../img/relaxation-facilities/spa.jpg');
-        }
+        grid-template-columns: repeat(2, 1fr);
 
         #yoga {
             background-image: url('../img/relaxation-facilities/yoga.jpg');
@@ -133,16 +129,12 @@ main {
             background-image: url('../img/relaxation-facilities/kids.jpg');
         }
 
-        #massage {
-            background-image: url('../img/relaxation-facilities/massage.jpg');
-        }
-
         .img {
             position: relative;
             background-size: 100%;
             transition: 0.5s;
             width: 300px;
-            height: 500px;
+            height: 400px;
             background-size: 100%;
             border-radius: 1rem;
         }

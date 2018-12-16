@@ -81,33 +81,50 @@
         }
 
         .form {
+            form {
+                width: 300px;
+                position: relative;
 
-            h1 {
-                text-align: left;
-                margin-bottom: 2rem;
-                padding-left: 0;
-            }
+                p {
+                    padding: 0;
+                    margin: 0;
+                    text-align: left;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 20px;
+                    font-weight: 600;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                }
 
-            .form-paragraph {
-                text-align: initial;
-                font-size: 22px;
-                padding: 0px;
-                margin-top: 1rem;
-            }
-             
-            input[type="submit"] {
-               border: none;
-               padding: 8px 15px;
-               color: white;
-               background: #527C7E;
-               border-radius: 5px;
-            }
-             
-            input[type="text"],
-            input[type="email"] {
-               border: none;
-               border-bottom: 1.5px solid #527C7E;
-               width: 70%;
+                input[type="text"], input[type="email"], textarea {
+                    padding: 10px 8px;
+                    margin-bottom: 10px;
+                    outline: none;
+                    border: none;
+                    border-bottom: 2px solid #527C7E;
+                    width: 100%;
+                }
+
+                h2 {
+                    font-family: 'Josefin Sans', sans-serif;
+                    color: #527C7E;
+                    font-size: 22px;
+                    text-transform: uppercase;
+                    padding-bottom: 10px;
+                }
+
+                input[type="submit"] {
+                    border: none;
+                    margin-bottom: 2rem;
+                    background: #527C7E;
+                    color: white;
+                    padding: 15px 20px;
+                    text-align: center;
+                    font-family: 'Josefin Sans', sans-serif;
+                    text-transform: uppercase;
+                    border-radius: 3px;
+                    margin-left: 7rem;
+                }
             }
         }
     }
