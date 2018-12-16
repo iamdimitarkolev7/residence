@@ -1,6 +1,7 @@
 .logo {
     padding: 15px;
     background: #527C7E;
+    height: 84px;
 }
 
 header a {
@@ -22,21 +23,19 @@ header a {
     letter-spacing: 8px;
 }
 
-.nav, 
-.sign-in-sign-up {
+nav {
     display: inline-block;
+    width: 100%;
 }
 
-.nav ul li,
-.sign-in-sign-up ul li {
+nav ul li {
     display: inline-block;
     text-align:center; 
     list-style-type: none;
     padding-top: 35px;
 }
 
-.nav ul li a, 
-.sign-in-sign-up ul li a{
+nav ul li a {
     text-decoration: none;
     color: black;
     padding-left: 50px;
@@ -48,11 +47,11 @@ header a {
     color: #DAA520;
 }
 
-.nav a:hover {
+nav a:hover {
     color: #527C7E;
 }
 
-.toggle {
+#toggle {
     padding: 25px;
     width: 100%;
     background: #527C7E;
@@ -61,4 +60,59 @@ header a {
     font-size: 30px;
     display: none;
     height: inherit;
+    box-sizing: border-box;
+    float: right;
+}
+
+label {
+    background: #527C7E;
+    text-align: right;
+    color: white;
+    line-height: 70px;
+    display: none;
+    font-size: 36px;
+    width: 100%;
+    float: right;
+    padding: 7px;
+    padding-right: 20px;
+}
+
+@media all and (max-width: 768px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .logo {
+        z-index: 2;
+    }
+
+    nav {
+        position: relative;
+        z-index: 1;
+    }
+
+    ul {
+        text-align: center;
+        width: 100%;
+        display: none;
+        position: relative;
+
+        li {
+            a {
+                display: block;
+                border-bottom: 1px solid #527C7E;
+                margin: 0;
+            }
+        }
+    }
+
+    #toggle:checked + ul {
+        display: block;
+
+        li {
+            display: block;
+            width: 100%;
+        }
+    }
 }
