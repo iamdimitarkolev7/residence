@@ -73,7 +73,7 @@ main {
             background-size: 100%;
             transition: 0.5s;
             width: 400px;
-            height: 300px;
+            height: 250px;
             background-size: 100%;
             border-radius: 1rem;
         }
@@ -107,11 +107,11 @@ main {
             top: 0;
         }
 
-        .img:first-line {
-            color: White;
-            font-weight: bold;
-            font-size: 1.5em;
-        }
+        //.img:first-line {
+            //color: white;
+           //font-weight: bold;
+            //font-size: 1.5em;
+        //}
 
         justify-self: center;
       }
@@ -168,11 +168,11 @@ main {
             top: 0;
         }
 
-        .img:first-line {
-            color: White;
-            font-weight: bold;
-            font-size: 1.5em;
-        }
+        //.img:first-line {
+            //color: White;
+            //font-weight: bold;
+            //font-size: 22px;
+        //}
 
         justify-self: center;
 

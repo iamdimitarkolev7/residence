@@ -48,8 +48,7 @@
     }
 
     .sport-facilities {
-        display: grid;
+        display: block;
         padding: 2rem;
-        grid-template-columns: repeat(1, 1fr);
       }
 }
