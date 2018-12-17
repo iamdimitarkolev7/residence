@@ -121,7 +121,7 @@ main .image-section-heading {
     text-align: center;
     font-family: 'Vidaloka', serif;
     letter-spacing: 2px;
-    color: #000;
+    color: #2b2a2a;
     font-size: 36px;
     margin-bottom: 2rem;
 }
@@ -129,7 +129,6 @@ main .image-section-heading {
 main .image-section {
     margin: auto;
     width: 90%;
-    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -155,13 +154,15 @@ main .image-section {
             right: 0;
             opacity: 0;
             transition: opacity .3s ease;
+            display: flex;
+            align-items: center;
 
             .btn {
                 font-size: 2rem;
                 font-family: 'Courgette', cursive;
                 align-self: center;
                 text-align: center;
-                padding-top: 8rem;
+                margin: 0 auto;
             }
             
         }

@@ -92,30 +92,35 @@
 
         #image1 {
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/villa-gergevets/restaurant.jpg');
-            background-size: 100%;
+            background-size: 100% 100%;
             background-position: center;
             height: 300px;
         }
 
         #image2 {
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/villa-gergevets/amazing-shops.jpg');
-            background-size: 100%;
+            background-size: 100% 100%;
             background-position: center;
             height: 300px;
         }
 
         #image3 {
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/villa-samuilovo/wine-tasting.jpg');
-            background-size: 100%;
+            background-size: 100% 100%;
             background-position: center;
             height: 300px;
         }
 
         #image4 {
             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../img/villa-samuilovo/biking.jpg');
-            background-size: 100%;
+            background-size: 100% 100%;
             background-position: center;
             height: 300px;
+        }
+
+        #image1:hover, #image2:hover, #image3:hover, #image4:hover {
+            transition: 0.5s;
+            background-size: 120% 120%;
         }
 
         article {
