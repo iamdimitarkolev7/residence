@@ -13,6 +13,11 @@
         cursor: pointer;
     }
 
+    label, #toggle {
+        position: absolute;
+        z-index: 3;
+    }
+
     .logo {
         z-index: 2;
         position: absolute;
@@ -29,13 +34,31 @@
         display: none;
         position: relative;
 
+        li:first-of-type a {
+            margin-top: 3.5rem;
+            border-top: 2px solid rgb(56, 79, 80);
+            padding-top: 1.8rem;
+        }
+
+        a {
+            color: white;
+        }
+
         li {
+            background: #527C7E;
+            color: white;
+
             a {
+                color: white;
                 display: block;
-                border-bottom: 1px solid #527C7E;
-                margin: 0;
+                border-bottom: 2px solid rgb(56, 79, 80);
+                padding-bottom: 1.8rem;
             }
         }
+    }
+
+    nav a:hover {
+        color: white;
     }
 
     #toggle:checked + ul {
@@ -46,9 +69,4 @@
             width: 100%;
         }
     }
-
-    .sport-facilities {
-        display: block;
-        padding: 2rem;
-      }
 }
