@@ -161,7 +161,7 @@
 
         .facilities {
             .facilities-heading {
-                font-size: 28px !important;
+                font-size: 28px;
             }
 
             .intro {
@@ -280,6 +280,24 @@
 }
 
 @media screen and (max-width: 640px) {
+
+    .header {
+        font-size: 20px !important;
+
+        p {
+            font-size: 20px !important;
+            width: 100%;
+        }
+    }
+    .facilities {
+         .facilities-heading {
+            font-size: 20px !important;
+            width: 100%;
+        }
+    }
+   
+    
+
     #gergevets {
         .coordinates, .info {
             p {

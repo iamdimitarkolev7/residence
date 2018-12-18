@@ -38,7 +38,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-size: 100% 100%;
     overflow-x: hidden;
     width: 100%;
     display: flex;
@@ -253,7 +252,7 @@ footer .logo-footer {
 
 footer .copyright {
     text-align: center;
-    padding: 1rem;
+    padding: 0;
     color: white;
     font-size: 18px;
 }
@@ -263,16 +262,17 @@ footer .bold {
     padding-left: 10px;
 }
 
-footer p:nth-of-type(2) {
+footer p:nth-of-type(1) {
     color: rgb(172, 172, 172);
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 footer .icons {
     text-align: center;
     font-size: 24px;
-    padding-bottom: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
 }
 
 footer .icons a {
