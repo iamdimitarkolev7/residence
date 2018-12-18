@@ -34,10 +34,13 @@
         display: none;
         position: relative;
 
-        li:first-of-type a {
-            margin-top: 3.5rem;
-            border-top: 2px solid rgb(56, 79, 80);
-            padding-top: 1.8rem;
+        li:first-of-type {
+            
+            a {
+                border-top: 2px solid rgb(56, 79, 80);
+                margin-top: 3.5rem;
+                padding-top: 1.8rem;
+            }
         }
 
         a {
@@ -47,26 +50,54 @@
         li {
             background: #527C7E;
             color: white;
+            border-bottom: 2px solid rgb(56, 79, 80);
 
             a {
                 color: white;
                 display: block;
-                border-bottom: 2px solid rgb(56, 79, 80);
                 padding-bottom: 1.8rem;
             }
         }
     }
 
     nav a:hover {
-        color: white;
+        color: rgb(56, 79, 80) !important;
     }
 
     #toggle:checked + ul {
+        @include delay;
         display: block;
 
         li {
             display: block;
             width: 100%;
+
+            &:nth-child(1) a {
+                animation-delay: 0.10s;
+            }
+
+            &:nth-child(2) a {
+                animation-delay: 0.20s;
+            }
+
+            &:nth-child(3) a {
+                animation-delay: 0.30s;
+            }
+
+            &:nth-child(4) a {
+                animation-delay: 0.40s;
+            }
+
+            &:nth-child(5) a {
+                animation-delay: 0.50s;
+            }
+
+            a {
+                animation: slideIn 0.3s ease 1 both;
+                text-align: center;
+                padding-left: 0;
+                color: white;
+            }
         }
     }
 
@@ -76,14 +107,6 @@
 
     .description {
         width: 80% !important;
-    }
-
-    #image1, #image2, #image3, #image4 {
-
-        p {
-            font-size: 18px !important;
-            line-height: 1.4;
-        }
     }
 }
 
@@ -156,8 +179,6 @@
                     height: 350px;
                 }
             }
-
-            
         }
     }
 
@@ -181,20 +202,125 @@
                 font-size: 16px !important;
             }
         }
-
     }
+
+    #gergevets {
+            section {
+                article {
+                    p {
+                        font-size: 16px !important;
+                        line-height: 1.6;
+                    }
+                }
+            }
+        }
 }
 
 @media screen and (max-width: 768px) {
+    .image-container {
+        .description, .heading {
+            font-size: 16px !important;
+            padding-left: 2rem;
+            width: 100%;
+            padding-bottom: 0.8rem !important;
+        }
+    }
+    
+    #gergevets {
+        section {
+            display: flex;
+            flex-direction: column !important;
 
+            article {
+                width: 70%;
+                
+                &:nth-of-type(1) {
+                    margin-bottom: 2rem;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .sport-facilities {
+      
+      .text-over-image {
+        .img {
+            position: relative;
+            background-size: 100%;
+            transition: 0.5s;
+            width: 400px !important;
+            height: 220px !important;
+            background-size: 100%;
+            border-radius: 1rem;
+            }
+        }
+    }
+
+    .relaxation-facilities {
+        display: grid;
+        padding: 2rem;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 2rem;
+
+        .img {
+            position: relative;
+            background-size: 100%;
+            transition: 0.5s;
+            width: 300px;
+            height: 400px;
+            background-size: 100%;
+            border-radius: 1rem;
+        }
+    }
+    
 }
 
 @media screen and (max-width: 640px) {
+    #gergevets {
+        .coordinates, .info {
+            p {
+                margin-left: 2rem;
+            }
+        }
 
+        .villa {
+            padding-left: 2rem;
+            padding-top: 2rem;
+            padding-bottom: 0;
+        }
+    }
+
+    .content .location {
+        width: 65%;
+        align-self: center;
+
+        img {
+            margin-left: 2rem;
+            align-self: center;
+        }
+    }
 }
 
 @media screen and (max-width: 480px) {
+    h1 {
+        font-size: 14px !important;
+    }
 
+    .image-container {
+        .description, .heading {
+            font-size: 14px !important;
+            padding-left: 1.5rem;
+            width: 100%;
+        }
+
+        .description {
+            padding-bottom: 0.5rem !important;
+        }
+    }
 }
 
 @media screen and (max-width: 320px) {

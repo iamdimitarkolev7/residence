@@ -1,0 +1,22 @@
+@keyframes logo-hover {
+
+    from{
+        font-size: 24px;
+    } 
+    
+    to{
+        font-size: 28px;
+    }
+}
+
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-5rem);
+    }
+    
+    to {
+      opacity: 1;
+      transform: translatex(0);
+    }
+}

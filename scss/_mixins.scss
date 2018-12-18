@@ -1,0 +1,7 @@
+@mixin delay {
+    @for $i from 2 to 5{
+      li:nth-child(#{$i}){
+        animation-delay: $i*0.2s-0.2s;
+      }
+    }
+  }

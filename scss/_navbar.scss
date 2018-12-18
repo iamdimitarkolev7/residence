@@ -1,3 +1,5 @@
+@import url('animations.scss');
+
 .logo {
     padding: 15px;
     background: #527C7E;
@@ -43,8 +45,8 @@ nav ul li a {
     font-size: 20px;
 }
 
-.logo:hover p {
-    color: #DAA520;
+.logo:hover p:nth-of-type(1){
+    animation: logo-hover 0.3s ease-in-out forwards;
 }
 
 nav a:hover {
@@ -75,45 +77,4 @@ label {
     float: right;
     padding: 7px;
     padding-right: 20px;
-}
-
-@media all and (max-width: 768px) {
-    label {
-        display: block;
-        cursor: pointer;
-    }
-
-    .logo {
-        z-index: 2;
-        position: absolute;
-    }
-
-    nav {
-        position: relative;
-        z-index: 1;
-    }
-
-    ul {
-        text-align: center;
-        width: 100%;
-        display: none;
-        position: relative;
-
-        li {
-            a {
-                display: block;
-                border-bottom: 1px solid #527C7E;
-                margin: 0;
-            }
-        }
-    }
-
-    #toggle:checked + ul {
-        display: block;
-
-        li {
-            display: block;
-            width: 100%;
-        }
-    }
 }
