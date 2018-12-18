@@ -252,7 +252,7 @@
             position: relative;
             background-size: 100%;
             transition: 0.5s;
-            width: 400px !important;
+            width: 350px !important;
             height: 220px !important;
             background-size: 100%;
             border-radius: 1rem;
@@ -321,8 +321,24 @@
             padding-bottom: 0.5rem !important;
         }
     }
-}
 
-@media screen and (max-width: 320px) {
+    .sport-facilities {
+        .text-over-image {
+          .img {
+              padding: 0.5rem !important;
+              width: 270px !important;
+              height: 200px !important;
+              }
+          }
+      }
 
+      .relaxation-facilities {
+        gap: 2rem;
+
+        .img {
+            width: 260px !important;
+            height: 360px !important;
+        }
+    }
+  
 }
