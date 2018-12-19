@@ -72,8 +72,8 @@ main {
         .img {
             position: relative;
             background-repeat: no-repeat;
-            background-size: 100%;
             background-position: center;
+            background-size: 100%;
             transition: 0.5s;
             width: 420px;
             height: 275px;
@@ -81,7 +81,7 @@ main {
         }
 
         .img:hover {
-            background-size: 110%;
+            background-size: 120%;
         }
 
         .img:after {
@@ -142,7 +142,7 @@ main {
         }
 
         .img:hover {
-            background-size: 110%;
+            background-size: 120%;
         }
 
         .img:after {
