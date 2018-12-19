@@ -1,5 +1,5 @@
 # Dimitar-Residence
-This is my final CSS Advanced project using Jekyll and sccs. The aim of the project is to demostrate what have I learnt during the course about SASS, Transitions and Animations.
+This is my final CSS Advanced project using Jekyll and sccs. The aim of the project is to demostrate what I have learnt during the course about SASS, Transitions and Animations.
 
 [Link to Dimitar Residence](https://iamdimitarkolev7.github.io/residence/)
 
