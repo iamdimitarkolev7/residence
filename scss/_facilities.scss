@@ -72,7 +72,7 @@ main {
         .img {
             position: relative;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: 100%;
             background-position: center;
             transition: 0.5s;
             width: 420px;
@@ -111,8 +111,8 @@ main {
 
         //.img:first-line {
             //color: white;
-           //font-weight: bold;
-            //font-size: 1.5em;
+            //font-weight: bold;
+            //font-size: 1rem;
         //}
 
         justify-self: center;

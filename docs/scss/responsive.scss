@@ -209,6 +209,12 @@
                 }
             }
         }
+
+        .header {
+            p {
+                font-size: 28px !important;
+            }
+        }
 }
 
 @media screen and (max-width: 768px) {
@@ -269,6 +275,12 @@
             height: 400px;
             background-size: 100%;
             border-radius: 1rem;
+        }
+    }
+
+    .header {
+        p {
+            font-size: 24px !important;
         }
     }
     
