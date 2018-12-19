@@ -3,11 +3,6 @@
 @import 'mixins.scss';
 
 @media screen and (max-width: 1024px){
-    html{
-        font-size: 1.4*$font-size;
-        line-height: $line-height
-    }
-
     label {
         display: block;
         cursor: pointer;
@@ -330,13 +325,23 @@
 }
 
 @media screen and (max-width: 480px) {
+    .image-section {
+        div:first-of-type img {
+            border: 0.8rem solid var(--color-main) !important;
+        }
+
+        .btn {
+            font-size: 20px !important;
+        }
+    }
+
     h1 {
-        font-size: 14px !important;
+        font-size: var(--font-size-480) !important;
     }
 
     .image-container {
         .description, .heading {
-            font-size: 14px !important;
+            font-size: var(--font-size-480) !important;
             padding-left: 1.5rem;
             width: 100%;
         }
@@ -364,5 +369,33 @@
             height: 360px !important;
         }
     }
-  
+
+    section {
+        article {
+            #image1, #image2, #image3, #image4 {
+                line-height: 1.2 !important;
+                padding: 0.5rem !important;
+            }
+        }
+    }
+
+    .header {
+        h3 {
+            width: 100%;
+        }
+    }
+    
+    .copyright {
+        font-size: var(--font-size-480 + 2px) !important;
+    }
+
+    form {
+        width: auto !important;
+    }
+
+    .content .contacts-box .form form input[type=submit] {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
 }

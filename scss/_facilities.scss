@@ -34,7 +34,8 @@ main {
 
     #header {
         background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/facilities-header-pic.jpg);
-        background-size: 100%; 
+        background-repeat: no-repeat;
+        background-size: cover;
         background-position: center;
         height: 300px;
 
@@ -70,11 +71,12 @@ main {
 
         .img {
             position: relative;
-            background-size: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
             transition: 0.5s;
             width: 420px;
             height: 275px;
-            background-size: 100%;
             border-radius: 1rem;
         }
 

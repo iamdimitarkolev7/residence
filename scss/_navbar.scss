@@ -3,7 +3,7 @@
 
 .logo {
     padding: 15px;
-    background: #527C7E;
+    background: var(--color-main);
     height: 84px;
 }
 
@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 nav a:hover {
-    color: #527C7E;
+    color: var(--color-main);
 }
 
 #toggle {

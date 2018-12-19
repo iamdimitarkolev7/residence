@@ -1,16 +1,16 @@
 #gergevets {
     .heading-part-villa-1 {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/villa-gergevets/villa-gergevets.jpg');
-        background-position: center;
-        background-size: 100% 100%;
         background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
     .heading-part-villa-2 {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/villa-samuilovo/villa-samuilovo.jpg');
-        background-position: center;
-        background-size: 100% 100%;
         background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
     .coordinates {
@@ -85,6 +85,14 @@
             padding-left: 8rem;
             padding-right: 8rem;
         }
+
+        p {
+            width: 80%;
+        }
+
+        h3 {
+            width: 80%;
+        }
     }
 
     section {
@@ -116,11 +124,6 @@
             background-repeat: no-repeat;
             background-position: center;
             height: 300px;
-        }
-
-        #image1:hover, #image2:hover, #image3:hover, #image4:hover {
-            transition: 0.5s;
-            background-size: 120% 120%;
         }
 
         article {

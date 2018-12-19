@@ -8,6 +8,7 @@
 @import 'villas.scss';
 @import 'mixins.scss';
 @import 'animations.scss';
+@import 'variables.scss';
 
 html {
     box-sizing: border-box;
@@ -104,7 +105,7 @@ main .header h1 {
 
 main .header h1 span {
     font-family: 'Courgette', cursive;
-    color: #527C7E;
+    color: var(--color-main);
     font-style: italic;
 }
 
@@ -169,7 +170,7 @@ main .image-section {
     }
 
     div:first-of-type img {
-        border: 1.5rem solid #0b5555;
+        border: 1.5rem solid var(--color-main);
         height: 56vw;
         max-height: 31.5rem;
         width: auto;
